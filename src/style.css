@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.main-container {
+    margin: 20px;
+}
+
+textarea {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#text-container:focus {
+    outline: none;
+}
+
+.active-border {
+    border: 2px solid red;
+}
+
+.active-color {
+    color: red;
+}
+
+span {
+    position: relative;
+    left: -80px;
+    top: -15px;
+}
